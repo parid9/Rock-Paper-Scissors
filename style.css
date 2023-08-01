@@ -25,3 +25,17 @@ footer {
   height: 100vh;
   font-size: 60px;
 }
+
+#container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  border: 2px solid ghostwhite;
+  border-radius: 20px;
+  background-color: #333;
+}
