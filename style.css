@@ -38,4 +38,7 @@ footer {
   border: 2px solid ghostwhite;
   border-radius: 20px;
   background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
