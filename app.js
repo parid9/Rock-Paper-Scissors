@@ -9,7 +9,21 @@ box1.addEventListener('click', () => {
   game();
 });
 
-function game() {}
+const box2 = document.querySelector('#box2');
+
+box2.addEventListener('click', () => {
+  game();
+});
+
+const box3 = document.querySelector('#box3');
+
+box3.addEventListener('click', () => {
+  game();
+});
+
+function game() {
+  console.log('hello');
+}
 
 function generateComputerChoice() {
   return choices[Math.floor(Math.random() * choices.length)];
