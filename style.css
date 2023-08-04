@@ -43,3 +43,21 @@ footer {
   align-items: center;
   cursor: pointer;
 }
+
+#button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 200px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #333;
+  color: ghostwhite;
+}
