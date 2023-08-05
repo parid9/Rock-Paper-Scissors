@@ -55,4 +55,5 @@ button {
   background-color: #333;
   color: ghostwhite;
   margin-left: 28.5em;
+  cursor: pointer;
 }

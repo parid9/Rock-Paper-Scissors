@@ -93,3 +93,20 @@ function game() {
     document.getElementById('computer').innerHTML = computerScore;
   }
 }
+
+const restart = document.getElementById('restart');
+
+restart.addEventListener('click', () => {
+  playerChoice = 'rock';
+  restartGame();
+});
+
+function restartGame() {
+  playing = true;
+  playerScore = 0;
+  computerScore = 0;
+  document.getElementById('computer').innerHTML = computerScore;
+  document.getElementById('player').innerHTML = playerScore;
+  let outCome = document.getElementById('message');
+  outCome.textContent = '(Game outcome)';
+}
