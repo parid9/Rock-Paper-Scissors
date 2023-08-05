@@ -22,7 +22,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 11vh;
   font-size: 60px;
 }
 
@@ -44,20 +44,15 @@ footer {
   cursor: pointer;
 }
 
-#button-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.btn {
+button {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
   width: 200px;
   font-size: 30px;
-  border-radius: 10px;
+  border-radius: 35px;
   background-color: #333;
   color: ghostwhite;
+  margin-left: 28.5em;
 }
